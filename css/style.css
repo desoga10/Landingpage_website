@@ -46,9 +46,34 @@ body{
 
 #showcase .button:hover{
 	background: #80bfff;
-
-
 }
 
+#section1{
+	padding: 20px;
+	background: #e67300;
+	color: #fff;
+	text-align: center;
+}
 
+#section2{
+	padding: 20px;
+	background: #ffecb3;
+	text-align: center;
+}
 
+#section3{
+	display: flex;
+}
+
+#section3 div{
+	padding: 20px;
+}
+
+#section3 .box-a, #section3 .box-c{
+	background-color: #e67300;
+	color: #fff;
+}
+
+#section3 .box-b{
+	background: #fff9e6;
+}
